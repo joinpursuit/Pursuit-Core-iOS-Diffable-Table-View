@@ -14,6 +14,8 @@
 		CD787FEE23E1E736000ACD78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD787FED23E1E736000ACD78 /* Assets.xcassets */; };
 		CD787FF123E1E736000ACD78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD787FEF23E1E736000ACD78 /* LaunchScreen.storyboard */; };
 		CD787FFC23E1E737000ACD78 /* TableViewsWithDiffableDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD787FFB23E1E737000ACD78 /* TableViewsWithDiffableDataSourceTests.swift */; };
+		CD78800723E1E757000ACD78 /* officeEpisodes.json in Resources */ = {isa = PBXBuildFile; fileRef = CD78800623E1E757000ACD78 /* officeEpisodes.json */; };
+		CD78800823E1E757000ACD78 /* officeEpisodes.json in Resources */ = {isa = PBXBuildFile; fileRef = CD78800623E1E757000ACD78 /* officeEpisodes.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,7 @@
 		CD787FF723E1E737000ACD78 /* TableViewsWithDiffableDataSourceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewsWithDiffableDataSourceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD787FFB23E1E737000ACD78 /* TableViewsWithDiffableDataSourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewsWithDiffableDataSourceTests.swift; sourceTree = "<group>"; };
 		CD787FFD23E1E737000ACD78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD78800623E1E757000ACD78 /* officeEpisodes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = officeEpisodes.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 		CD787FD823E1E733000ACD78 = {
 			isa = PBXGroup;
 			children = (
+				CD78800623E1E757000ACD78 /* officeEpisodes.json */,
 				CD787FE323E1E733000ACD78 /* TableViewsWithDiffableDataSource */,
 				CD787FFA23E1E737000ACD78 /* TableViewsWithDiffableDataSourceTests */,
 				CD787FE223E1E733000ACD78 /* Products */,
@@ -183,6 +187,7 @@
 				CD787FF123E1E736000ACD78 /* LaunchScreen.storyboard in Resources */,
 				CD787FEE23E1E736000ACD78 /* Assets.xcassets in Resources */,
 				CD787FEC23E1E733000ACD78 /* Main.storyboard in Resources */,
+				CD78800723E1E757000ACD78 /* officeEpisodes.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD78800823E1E757000ACD78 /* officeEpisodes.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
